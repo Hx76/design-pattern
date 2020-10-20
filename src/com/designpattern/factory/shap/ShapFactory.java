@@ -1,4 +1,9 @@
-package com.designpattern.factory;
+package com.designpattern.factory.shap;
+
+import com.designpattern.factory.shap.Shap;
+import com.designpattern.factory.shap.impl.Circle;
+import com.designpattern.factory.shap.impl.Rectangle;
+import com.designpattern.factory.shap.impl.Square;
 
 public class ShapFactory {
     public Shap getShap(String shapeType) {

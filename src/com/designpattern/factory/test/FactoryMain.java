@@ -1,7 +1,7 @@
 package com.designpattern.factory.test;
 
-import com.designpattern.factory.Shap;
-import com.designpattern.factory.ShapFactory;
+import com.designpattern.factory.shap.Shap;
+import com.designpattern.factory.shap.ShapFactory;
 
 public class FactoryMain {
     public static void main(String[] args) {
